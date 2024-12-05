@@ -1,0 +1,35 @@
+.wrapContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+.textField{
+  margin: 0.2rem 0 !important;
+  font-size: 0.1rem;
+}
+.dialogActions{
+  padding: 0.4rem 0.8rem;
+}
+.error{
+margin: 0.6rem 0;
+}
+.iconContainer{
+  display: flex;
+  justify-content: center;
+}
+.dateRangePicker {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+:global(.rdrDateRangePickerWrapper) {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+:global(.rdrMonthAndYearPicker) {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}

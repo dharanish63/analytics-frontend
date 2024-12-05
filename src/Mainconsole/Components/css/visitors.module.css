@@ -1,0 +1,275 @@
+.wrapContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.textContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+  padding: 1.7rem;
+}
+
+.text1 {
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+}
+
+.text2 {
+  font-size: 1rem;
+  font-weight: bold !important;
+  color: #000AFF;
+}
+
+.chartContainer {
+  width: 80%; 
+  position: relative;
+  height: 60%;
+  margin-bottom: 20px; /* Margin for spacing */
+}
+
+.activeText {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+  .areachart{
+    border-top: "2px solid white"
+  }
+  
+
+  .activeText1 {
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+  }
+  
+  .activeText2 {
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+  }
+  
+  .listitemContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .listitemText1 {
+    font-size: 0.6rem !important;
+    color: gray;
+  }
+  
+  .listitemText2 {
+    font-size: 0.6em !important;
+    color: gray;
+  }
+  
+  .text {
+    font-size: 0.6rem !important;
+    padding-bottom: 10px;
+    padding-top: 1rem;
+    text-align: end !important;
+    margin-right: 11% !important;
+    font-weight: 500;
+    height: auto;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1200px) {
+    .wrapContainer{
+      height: 100%;
+      width: 100%;
+    }
+    .chartContainer {
+      width: 90%;
+      height: 50%;
+    }
+    .text {
+      /* font-size: 0.6em !important; */
+      padding-top: 3rem;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .chartContainer {
+      width: 80%;
+      height: 50%;
+    }
+  
+    .activeText {
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: 1rem;
+      padding-top: 1rem;
+    }
+  
+    .activeText1, .activeText2 {
+      font-size: 0.7rem !important;
+    }
+  
+    .listitemContainer {
+      font-size: 12px;
+      display: flex;
+    justify-content: space-around;
+    }
+  
+    .listitemText1, .listitemText2 {
+      font-size: 0.6em !important;
+    }
+  
+    .text {
+      /* font-size: 0.6em !important; */
+      padding-top: 3rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .chartContainer {
+      width: 100%;
+      height: 45%;
+    }
+  
+    .textContainer {
+      padding: 8px;
+    }
+  
+    .text1, .text2 {
+      font-size: 0.8em !important;
+    }
+  
+    .activeText {
+      font-size: 0.8rem;
+      height: auto;
+    }
+  
+    .activeText1, .activeText2 {
+      font-size: 0.6em !important;
+    }
+  
+    .listitemContainer {
+      font-size: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .listitemText1, .listitemText2 {
+      font-size: 0.5em !important;
+      margin-bottom: 5px;
+    }
+  
+    .text {
+      /* font-size: 0.5em !important; */
+      margin-right: 0;
+    }
+  }
+.text {
+  font-size: 0.6rem !important;
+  padding-bottom: 10px;
+  padding-top: 1rem;
+  text-align: end !important;
+  margin-right: 11% !important;
+  font-weight: 500;
+  height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .wrapContainer{
+    height: 100%;
+    width: 100%;
+  }
+  .chartContainer {
+    width: 90%;
+    height: 50%;
+  }
+  .text {
+    /* font-size: 0.6em !important; */
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .chartContainer {
+    width: 80%;
+    height: 50%;
+  }
+
+  .activeText {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .activeText1, .activeText2 {
+    font-size: 0.7rem !important;
+  }
+
+  .listitemContainer {
+    font-size: 12px;
+    display: flex;
+  justify-content: space-around;
+  }
+
+  .listitemText1, .listitemText2 {
+    font-size: 0.6em !important;
+  }
+
+  .text {
+    /* font-size: 0.6em !important; */
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .chartContainer {
+    width: 100%;
+    height: 45%;
+  }
+
+  .textContainer {
+    padding: 8px;
+  }
+
+  .text1, .text2 {
+    font-size: 0.8em !important;
+  }
+
+  .activeText {
+    font-size: 0.8rem;
+    height: auto;
+  }
+
+  .activeText1, .activeText2 {
+    font-size: 0.6em !important;
+  }
+
+  .listitemContainer {
+    font-size: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .listitemText1, .listitemText2 {
+    font-size: 0.5em !important;
+    margin-bottom: 5px;
+  }
+
+  .text {
+    /* font-size: 0.5em !important; */
+    margin-right: 0;
+  }
+}

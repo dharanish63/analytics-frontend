@@ -1,0 +1,19 @@
+.world-map-container {
+  width: 100%; /* Full width */
+  height: 0; /* Allows the aspect ratio to take control */
+  padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+  position: relative; /* To position the WorldMap inside */
+
+  /* Optional: Adjust responsiveness */
+  @media (max-width: 768px) {
+    padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+  }
+}
+
+.world-map-container > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,61 @@
+.piecontainer{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  border: 0.5px solid rgb(243, 239, 239);
+  border-radius: 5px;
+  min-height: 80%;
+}
+.textContainer{
+  padding: 1rem 0.6rem 0 ;
+  border-top: 2px solid #fff ;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+  /* border:2px solid #c43131 !important ; */
+}
+.tab{
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem !important;
+  height: 15%;
+  width: 100%;
+  margin: 0 auto;
+}
+.titleText{
+  font-size: 1em !important;
+  font-weight: 540 !important;
+}
+.formcontrol{
+  padding: 1rem 0.6rem 0 !important;
+  background-color: white;
+}
+.inputLabel{
+ font-size: 0.8rem !important;
+  /* font-weight: 540 !important; */
+}
+.piechart{
+  height: 200px;
+  width: 100%;
+  min-height: auto;
+}
+.maindetails{
+  display: flex;
+  justify-content: space-around;
+}
+.details{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  font-size: 0.7rem !important;
+}
+.text{
+  font-size: 0.8rem !important;
+  padding: 0.2rem;
+}
+.value{
+  font-size: 0.7rem !important;
+  padding:0  0.5rem;
+}
